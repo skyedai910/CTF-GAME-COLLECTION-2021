@@ -1,0 +1,24 @@
+Jack has developed a malicout analysis tool and leave a backdoor in it.
+
+Can you hack the tool and get shell?
+
+You can send the base64 of bitcode to the server, and the server will decode it and run "opt-8 -load ./SAPass.so -SAPass ./your_bitcode".
+
+You can directly use the following script to send base64 code to server:
+
+
+from pwn import *
+import sys
+context.log_level='debug'
+
+con = remote(sys.argv[1], sys.argv[2])
+f = open("./exp.bc","rb")
+
+payload=f.read()
+
+f.close()
+
+payload2 = payload.encode("base64")
+con.sendlineafter("bitcode: \n", payload2)
+
+con.interactive()
