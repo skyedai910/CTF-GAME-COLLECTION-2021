@@ -1,0 +1,18 @@
+2021-10-03 21:58:44: -- 分析开始 User Command
+2021-10-03 21:58:44: 左侧: State file does not exist: /Users/skye/Sec/CTF/CTF-GAME-COLLECTION-2021/_gsdata_/_file_state_v4._gs
+2021-10-03 21:58:44: 右侧: State file does not exist: /Users/skye/Sec/CTF/CTF-GAME-COLLECTION-2021的副本/_gsdata_/_file_state_v4._gs
+2021-10-03 21:58:44: /.git/COMMIT_EDITMSG: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/index: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/logs/HEAD: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/logs/refs/heads/main: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/logs/refs/remotes/origin/main: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/objects/pack/pack-3e53ffd06c8f4387a8ca161f2a1dc724e0b86505.pack: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/ORIG_HEAD: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/refs/heads/main: 冲突: 新文件有变化
+2021-10-03 21:58:44: /.git/refs/remotes/origin/main: 冲突: 新文件有变化
+2021-10-03 21:58:44: /2021_蓝帽杯决赛/secretcode/chall.i64: 冲突: 新文件有变化
+2021-10-03 21:58:44: 分析完毕并发现冲突情况。请选择正确的同步方向解决冲突，然后单击同步
+2021-10-03 21:58:44: 变更：200， 冲突：10， 复制时间：0， 复制状态：732， 错误： 0, All: 1041
+2021-10-03 21:58:44: Left to Right: Copy File: 144 
+2021-10-03 21:58:44: Right to Left: Copy File: 46 
+2021-10-03 21:58:44: -- 分析已结束。历时 00:00:00, 速度： Many 文件/秒

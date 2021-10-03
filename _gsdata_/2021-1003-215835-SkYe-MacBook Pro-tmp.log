@@ -1,0 +1,6 @@
+2021-10-03 21:58:35: -- 分析开始 User Command
+2021-10-03 21:58:35: 左侧: State file does not exist: /Users/skye/Sec/CTF/CTF-GAME-COLLECTION-2021/_gsdata_/_file_state_v4._gs
+2021-10-03 21:58:35: 右侧: State file does not exist: /Users/skye/Sec/CTF/CTF-GAME-COLLECTION-2021的副本/_gsdata_/_file_state_v4._gs
+2021-10-03 21:58:35: 变更：207， 冲突：0， 复制时间：0， 复制状态：732， 错误： 0, All: 1041
+2021-10-03 21:58:35: Left to Right: Copy File: 154 Delete File: 53 
+2021-10-03 21:58:35: -- 分析已结束。历时 00:00:00, 速度： Many 文件/秒

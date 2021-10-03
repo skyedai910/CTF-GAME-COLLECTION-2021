@@ -1,0 +1,17 @@
+2021-10-03 22:00:11: -- 分析开始 User Command
+2021-10-03 22:00:11: 左侧: State file does not exist: /Users/skye/Sec/CTF/CTF-GAME-COLLECTION-2021/_gsdata_/_file_state_v4._gs
+2021-10-03 22:00:11: 右侧: State file does not exist: /Users/skye/Sec/CTF/CTF-GAME-COLLECTION-2021的副本/_gsdata_/_file_state_v4._gs
+2021-10-03 22:00:11: /.git/COMMIT_EDITMSG: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/index: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/logs/HEAD: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/logs/refs/heads/main: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/logs/refs/remotes/origin/main: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/objects/pack/pack-3e53ffd06c8f4387a8ca161f2a1dc724e0b86505.pack: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/ORIG_HEAD: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/refs/heads/main: 冲突: 新文件有变化
+2021-10-03 22:00:11: /.git/refs/remotes/origin/main: 冲突: 新文件有变化
+2021-10-03 22:00:11: 分析完毕并发现冲突情况。请选择正确的同步方向解决冲突，然后单击同步
+2021-10-03 22:00:11: 变更：154， 冲突：9， 复制时间：0， 复制状态：778， 错误： 0, All: 1041
+2021-10-03 22:00:11: Left to Right: Copy File: 144 
+2021-10-03 22:00:11: Right to Left: Copy File: 1 
+2021-10-03 22:00:11: -- 分析已结束。历时 00:00:00, 速度： Many 文件/秒
