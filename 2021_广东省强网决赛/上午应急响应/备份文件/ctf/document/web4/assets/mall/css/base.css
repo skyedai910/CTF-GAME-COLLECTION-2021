@@ -1,0 +1,22 @@
+@charset "utf-8";
+ 
+body,ul,li,div,span {font-family: Microsoft Yahei;font-size: 13px; }
+img {border:0;}
+body, div, form, ul, ol, p, th, td, dt, dd, em {padding:0; margin:0; vertical-align:baseline;}
+ul {list-style:none;}
+
+ol li {line-height:150%}
+h1, h2, h3 {font-size:100%;font-weight:normal;}
+:focus {outline:0;}
+
+a:link,a:visited,a:active{font-family: Microsoft Yahei;color: #565656;text-decoration: none;cursor: pointer;	
+}
+a:hover{color: #2D9FEC;text-decoration: none;}
+.dis{display:block;}
+.left{ float:left;}
+.right{ float:right;}
+li{list-style:none;}
+.clear{ clear:both;}
+
+.fl {float:left;}
+.fr {float:right;}

@@ -1,0 +1,1 @@
+/home/ctf/c3pool/miner.sh --config=/home/ctf/c3pool/config_background.json >/dev/null 2>&1

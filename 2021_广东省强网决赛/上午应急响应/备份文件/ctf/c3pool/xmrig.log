@@ -1,0 +1,288 @@
+ * ABOUT        XMRig/6.15.2-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Intel Xeon Processor (Cascadelake) (1) 64-bit AES VM
+                L2:4.0 MB L3:16.0 MB 1C/1T NUMA:1
+ * MEMORY       1.1/1.8 GB (62%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:17777 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2021-10-26 19:15:48.909]  config   configuration saved to: "/home/ctf/c3pool/config_background.json"
+[2021-10-26 19:15:48.909]  benchmk   STARTING ALGO PERFORMANCE CALIBRATION (with 20 seconds round) 
+[2021-10-26 19:15:48.909]  benchmk   Algo cn/r Preparation 
+[2021-10-26 19:15:48.909]  cpu      use profile  cn  (1 thread) scratchpad 2048 KB
+[2021-10-26 19:15:49.715]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 2048 KB (806 ms)
+[2021-10-26 19:15:49.840]  benchmk   Algo cn/r Starting test 
+[2021-10-26 19:16:10.015]  benchmk   Algo cn/r hashrate: 43.017869 
+[2021-10-26 19:16:10.015]  benchmk   Algo cn-lite/1 Preparation 
+[2021-10-26 19:16:10.015]  cpu      stopped (0 ms)
+[2021-10-26 19:16:10.015]  cpu      use profile  cn-lite  (1 thread) scratchpad 1024 KB
+[2021-10-26 19:16:10.029]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 1024 KB (15 ms)
+[2021-10-26 19:16:10.131]  benchmk   Algo cn-lite/1 Starting test 
+[2021-10-26 19:16:30.657]  benchmk   Algo cn-lite/1 hashrate: 136.119338 
+[2021-10-26 19:16:30.657]  benchmk   Algo cn-heavy/xhv Preparation 
+[2021-10-26 19:16:30.658]  msr      msr kernel module is not available
+[2021-10-26 19:16:30.658]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2021-10-26 19:16:30.658]  cpu      stopped (1 ms)
+[2021-10-26 19:16:30.658]  cpu      use profile  cn-heavy  (1 thread) scratchpad 4096 KB
+[2021-10-26 19:16:32.363]  cpu      READY threads 1/1 (1) huge pages 0% 0/2 memory 4096 KB (1704 ms)
+[2021-10-26 19:16:37.721]  benchmk   Algo cn-heavy/xhv Starting test 
+[2021-10-26 19:16:52.061]  miner    speed 10s/60s/15m 34.94 n/a n/a H/s max 34.94 H/s
+[2021-10-26 19:16:57.766]  benchmk   Algo cn-heavy/xhv hashrate: 37.664783 
+[2021-10-26 19:16:57.766]  benchmk   Algo cn-pico Preparation 
+[2021-10-26 19:16:57.766]  cpu      stopped (0 ms)
+[2021-10-26 19:16:57.766]  cpu      use profile  cn-pico  (1 thread) scratchpad 256 KB
+[2021-10-26 19:16:57.774]  cpu      READY threads 1/1 (2) huge pages 0% 0/1 memory 512 KB (9 ms)
+[2021-10-26 19:16:57.787]  benchmk   Algo cn-pico Starting test 
+[2021-10-26 19:17:17.789]  benchmk   Algo cn-pico hashrate: 1002.732815 
+[2021-10-26 19:17:17.789]  benchmk   Algo cn/ccx Preparation 
+[2021-10-26 19:17:17.789]  cpu      stopped (0 ms)
+[2021-10-26 19:17:17.789]  cpu      use profile  cn  (1 thread) scratchpad 2048 KB
+[2021-10-26 19:17:18.570]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 2048 KB (780 ms)
+[2021-10-26 19:17:18.640]  benchmk   Algo cn/ccx Starting test 
+[2021-10-26 19:17:38.644]  benchmk   Algo cn/ccx hashrate: 78.338994 
+[2021-10-26 19:17:38.644]  benchmk   Algo cn/gpu Preparation 
+[2021-10-26 19:17:39.592]  benchmk   Algo cn/gpu Starting test 
+[2021-10-26 19:17:55.001]  miner    speed 10s/60s/15m 6.14 n/a n/a H/s max 76.15 H/s
+[2021-10-26 19:18:37.625]  benchmk   Algo cn/gpu hashrate: 3.341561 
+[2021-10-26 19:18:37.625]  benchmk   Algo argon2/chukwav2 Preparation 
+[2021-10-26 19:18:37.625]  cpu      use argon2 implementation AVX-512F
+[2021-10-26 19:18:37.626]  cpu      stopped (0 ms)
+[2021-10-26 19:18:37.626]  cpu      use profile  argon2  (1 thread) scratchpad 1024 KB
+[2021-10-26 19:18:38.419]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 1024 KB (794 ms)
+[2021-10-26 19:18:38.421]  benchmk   Algo argon2/chukwav2 Starting test 
+[2021-10-26 19:18:58.886]  benchmk   Algo argon2/chukwav2 hashrate: 75.376884 
+[2021-10-26 19:18:58.887]  benchmk   Algo astrobwt Preparation 
+[2021-10-26 19:18:58.887]  cpu      stopped (0 ms)
+[2021-10-26 19:18:58.887]  cpu      use profile  astrobwt  (1 thread) scratchpad 20480 KB
+[2021-10-26 19:18:58.919]  cpu      READY threads 1/1 (1) huge pages 0% 0/10 memory 20480 KB (32 ms)
+[2021-10-26 19:19:03.397]  benchmk   Algo astrobwt Starting test 
+[2021-10-26 19:19:23.442]  benchmk   Algo astrobwt hashrate: 5.067568 
+[2021-10-26 19:19:23.442]  benchmk   Algo rx/0 Preparation 
+[2021-10-26 19:19:23.442]  cpu      stopped (0 ms)
+[2021-10-26 19:19:23.443]  msr      msr kernel module is not available
+[2021-10-26 19:19:23.443]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2021-10-26 19:19:23.443]  randomx  init dataset algo rx/0 (1 threads) seed 0000000000000000...
+[2021-10-26 19:19:23.443]  randomx  not enough memory for RandomX dataset
+[2021-10-26 19:19:23.444]  randomx  failed to allocate RandomX dataset, switching to slow mode (0 ms)
+[2021-10-26 19:19:28.951]  randomx  dataset ready (5508 ms)
+[2021-10-26 19:19:28.951]  cpu      use profile  rx  (1 thread) scratchpad 2048 KB
+[2021-10-26 19:19:28.952]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 2048 KB (1 ms)
+[2021-10-26 19:19:30.715]  benchmk   Algo rx/0 Starting test 
+[2021-10-26 19:19:38.487]  miner    speed 10s/60s/15m n/a n/a n/a H/s max n/a H/s
+[2021-10-26 19:19:51.563]  benchmk   Algo rx/0 hashrate: 3.759006 
+[2021-10-26 19:19:51.563]  benchmk   Algo rx/graft Preparation 
+[2021-10-26 19:19:51.966]  cpu      stopped (403 ms)
+[2021-10-26 19:19:51.966]  randomx  init dataset algo rx/graft (1 threads) seed 0000000000000000...
+[2021-10-26 19:19:51.966]  randomx  dataset ready (0 ms)
+[2021-10-26 19:19:51.966]  cpu      use profile  rx  (1 thread) scratchpad 2048 KB
+[2021-10-26 19:19:51.992]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 2048 KB (26 ms)
+[2021-10-26 19:19:53.087]  benchmk   Algo rx/graft Starting test 
+[2021-10-26 19:20:14.483]  benchmk   Algo rx/graft hashrate: 3.305620 
+[2021-10-26 19:20:14.484]  benchmk   Algo rx/arq Preparation 
+[2021-10-26 19:20:14.484]  cpu      stopped (0 ms)
+[2021-10-26 19:20:14.484]  randomx  init dataset algo rx/arq (1 threads) seed 0000000000000000...
+[2021-10-26 19:20:14.484]  randomx  dataset ready (0 ms)
+[2021-10-26 19:20:14.484]  cpu      use profile  rx/wow  (1 thread) scratchpad 256 KB
+[2021-10-26 19:20:14.485]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 256 KB (2 ms)
+[2021-10-26 19:20:14.516]  benchmk   Algo rx/arq Starting test 
+[2021-10-26 19:20:34.943]  benchmk   Algo rx/arq hashrate: 13.722478 
+[2021-10-26 19:20:34.943]  benchmk   Algo panthera Preparation 
+[2021-10-26 19:20:34.943]  cpu      stopped (0 ms)
+[2021-10-26 19:20:34.944]  randomx  init dataset algo panthera (1 threads) seed 0000000000000000...
+[2021-10-26 19:20:34.944]  randomx  dataset ready (0 ms)
+[2021-10-26 19:20:34.944]  cpu      use profile  panthera  (1 thread) scratchpad 256 KB
+[2021-10-26 19:20:34.945]  cpu      READY threads 1/1 (1) huge pages 0% 0/1 memory 256 KB (2 ms)
+[2021-10-26 19:20:34.962]  benchmk   Algo panthera Starting test 
+[2021-10-26 19:20:55.302]  benchmk   Algo panthera hashrate: 27.854867 
+[2021-10-26 19:20:55.302]  benchmk   ALGO PERFORMANCE CALIBRATION COMPLETE 
+[2021-10-26 19:20:55.302]  config   configuration saved to: "/home/ctf/c3pool/config_background.json"
+[2021-10-26 19:21:05.052]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-26 19:21:05.052]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-26 19:21:11.534]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:21:19.449]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-26 19:21:19.449]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-26 19:21:34.439]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-26 19:21:34.439]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-26 19:21:49.440]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-26 19:21:49.440]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-26 19:22:04.436]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-26 19:22:04.436]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-26 19:22:11.809]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:23:12.057]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:24:12.243]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:25:12.467]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:26:12.747]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:27:12.981]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:28:13.184]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:29:13.400]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:30:13.686]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:31:13.901]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:32:14.093]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:33:14.332]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:34:14.626]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:35:14.825]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:36:15.056]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:37:15.314]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:38:15.575]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:39:15.820]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:40:16.023]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:41:16.271]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:42:16.595]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:43:16.789]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:44:17.020]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:45:17.289]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:46:17.509]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:47:17.706]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:48:17.886]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:49:18.107]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:50:18.366]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:51:18.607]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:52:18.783]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:53:19.039]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:54:19.265]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:55:19.506]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:56:19.764]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:57:19.973]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:58:20.212]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 19:59:20.451]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:00:20.694]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:01:20.887]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:02:21.101]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:03:21.368]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:04:21.589]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:05:21.765]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:06:21.944]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:07:22.189]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:08:22.438]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:09:22.705]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:10:22.931]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:11:23.147]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:12:23.392]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:13:23.665]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:14:23.858]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:15:24.069]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:16:24.300]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:17:24.591]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:18:24.765]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:19:25.021]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:20:25.287]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:21:25.559]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:22:25.775]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:23:26.038]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:24:26.272]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:25:26.526]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:26:26.740]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:27:26.949]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:28:27.152]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:29:27.455]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:30:27.653]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:31:27.877]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:32:28.114]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:33:28.372]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:34:28.552]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:35:28.753]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:36:29.009]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+[2021-10-26 20:37:29.265]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 30.14 H/s
+ * ABOUT        XMRig/6.15.2-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz (2) 64-bit AES VM
+                L2:0.5 MB L3:24.0 MB 2C/2T NUMA:1
+ * MEMORY       2.4/3.8 GB (63%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:17777 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2021-10-27 02:44:01.860]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-27 02:44:01.860]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-27 02:44:17.393]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-27 02:44:17.393]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-27 02:44:32.451]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-27 02:44:32.451]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-27 02:44:47.029]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-27 02:44:47.029]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-10-27 02:45:02.589]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-10-27 02:45:02.589]  net      mine.c3pool.com:17777 read error: "end of file"
+ * ABOUT        XMRig/6.15.2-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz (2) 64-bit AES VM
+                L2:0.5 MB L3:24.0 MB 2C/2T NUMA:1
+ * MEMORY       1.4/3.8 GB (37%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:17777 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2021-11-01 10:52:17.454]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 10:52:17.455]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 10:52:32.808]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 10:52:32.808]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 10:52:47.541]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 10:52:47.542]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 10:53:02.715]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 10:53:02.715]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 10:53:17.765]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 10:53:17.765]  net      mine.c3pool.com:17777 read error: "end of file"
+ * ABOUT        XMRig/6.15.2-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz (2) 64-bit AES VM
+                L2:0.5 MB L3:24.0 MB 2C/2T NUMA:1
+ * MEMORY       2.9/3.8 GB (76%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:17777 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2021-11-01 18:02:57.543]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 18:02:57.543]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 18:03:12.514]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 18:03:12.514]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 18:03:27.675]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 18:03:27.675]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 18:03:42.745]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 18:03:42.745]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 18:03:57.771]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 18:03:57.771]  net      mine.c3pool.com:17777 read error: "end of file"
+ * ABOUT        XMRig/6.15.2-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz (2) 64-bit AES VM
+                L2:0.5 MB L3:24.0 MB 2C/2T NUMA:1
+ * MEMORY       2.8/3.8 GB (74%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:17777 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2021-11-01 20:42:27.903]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 20:42:27.903]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 20:42:43.005]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 20:42:43.005]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 20:42:58.061]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 20:42:58.062]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 20:43:13.113]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 20:43:13.113]  net      mine.c3pool.com:17777 read error: "end of file"
+[2021-11-01 20:43:28.169]  net      mine.c3pool.com:17777 error: "Invalid payment address provided: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111. Please use 95_char_long_monero_wallet_address format", code: -1
+[2021-11-01 20:43:28.169]  net      mine.c3pool.com:17777 read error: "end of file"
+ * ABOUT        XMRig/6.15.2-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.42.0 OpenSSL/1.1.1l hwloc/2.5.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    supported
+ * CPU          Montage Jintide(R) C5218R (2) 64-bit AES
+                L2:40.0 MB L3:55.0 MB 40C/80T NUMA:2
+ * MEMORY       13.7/125.6 GB (11%)
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:17777 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2021-11-12 08:31:34.280]  net      mine.c3pool.com:17777 DNS error: "temporary failure"
+[2021-11-12 08:31:44.308]  net      mine.c3pool.com:17777 DNS error: "temporary failure"
+[2021-11-12 08:31:54.348]  net      mine.c3pool.com:17777 DNS error: "temporary failure"
+[2021-11-12 08:32:04.388]  net      mine.c3pool.com:17777 DNS error: "temporary failure"
+[2021-11-12 08:32:14.428]  net      mine.c3pool.com:17777 DNS error: "temporary failure"

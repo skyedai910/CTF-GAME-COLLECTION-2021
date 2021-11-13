@@ -1,0 +1,947 @@
+/*!
+ * =======================================================
+ * KOLIY易支付系统：yzf.koliy.cn  AuthQQ：522332910
+ * =======================================================
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #535353;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** aspay5 start **/
+.aspay5 .login-inner-form .col-pad-0{
+    padding: 0;
+}
+
+.aspay5 .bg-img{
+    background: rgba(0, 0, 0, 0.04) url(../images/bg-uaspay5.jpg) top left repeat;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    min-height: 100vh;
+    text-align: left;
+    z-index: 999;
+    opacity: 1;
+    border-radius: 100% 0 0 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.aspay5 .form-section{
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.aspay5 .login-inner-form {
+    max-width: 350px;
+    color: #717171;
+    width: 100%;
+    text-align: center;
+}
+
+.aspay5 .login-inner-form p{
+    color: #717171;
+    font-size: 14px;
+    margin: 0;
+}
+
+.aspay5 .login-inner-form p a{
+    color: #717171;
+    font-weight: 500;
+}
+
+.aspay5 .login-inner-form img {
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.aspay5 .login-inner-form h3 {
+    margin: 0 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #717171;
+}
+
+.aspay5 .login-inner-form .form-group {
+    margin-bottom: 11px;
+}
+
+.aspay5 .login-inner-form .input-text {
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 13px;
+    outline: 0;
+    font-weight: 600;
+    color: #717171;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+}
+
+.aspay5 .login-inner-form .btn-md {
+    cursor: pointer;
+    padding: 12px 30px 11px 30px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+}
+
+.aspay5 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-right: 3px;
+}
+
+.aspay5 .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.aspay5 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.aspay5 .login-inner-form .btn-theme {
+    background: #376bff;
+    border: none;
+    color: #fff;
+}
+
+.aspay5 .login-inner-form .btn-theme:hover {
+    background: #2c5ce4;
+}
+
+.aspay5 .login-inner-form .checkbox .terms {
+    margin-left: 3px;
+}
+
+.aspay5 .informeson {
+    color: #fff;
+    margin: 0 20px 0 70px;
+}
+
+.aspay5 .informeson h3{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.aspay5 .informeson p{
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.aspay5 .social-box .social-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.aspay5 .social-box .social-list li {
+    font-size: 16px;
+    float: left;
+}
+
+.aspay5 .social-box .social-list li a {
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 3px;
+    display: inline-block;
+    color: #fff;
+}
+
+.aspay5 .none-2{
+    display: none;
+}
+
+.aspay5 .btn-section {
+    margin-bottom: 30px;
+}
+
+.aspay5 .informeson .link-btn:hover {
+    text-decoration: none;
+}
+
+.aspay5 .informeson .link-btn {
+    background: #fff;
+    padding: 6px 30px;
+    font-size: 13px;
+    border-radius: 3px;
+    margin: 3px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #376bff;
+}
+
+.aspay5 .informeson .active {
+    background: #376bff;
+    color: #fff;
+}
+
+.aspay5 .login-inner-form .terms{
+    margin-left: 3px;
+}
+
+.aspay5 .login-inner-form .checkbox {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.aspay5 .login-inner-form .form-check{
+    float: left;
+    margin-bottom: 0;
+}
+
+.aspay5 .login-inner-form .form-check a {
+    color: #717171;
+    float: right;
+}
+
+.aspay5 .login-inner-form .form-check-input {
+    position: absolute;
+    margin-left: 0;
+}
+
+.aspay5 .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -25px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.aspay5 .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.aspay5 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #376bff;
+    border-color: #376bff;
+}
+
+.aspay5 .login-inner-form input[type=checkbox]:checked + label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+}
+
+.aspay5 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.aspay5 .login-inner-form .checkbox a {
+    font-size: 14px;
+    color: #717171;
+    float: right;
+}
+
+/** Social media **/
+.aspay5 .facebook-color:hover {
+    color: #4867aa!important;
+}
+
+.aspay5 .twitter-color:hover {
+    color: #33CCFF!important;
+}
+
+.aspay5 .google-color:hover {
+    color: #db4437!important;
+}
+
+.aspay5 .linkedin-color:hover {
+    color: #0177b5!important;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .aspay5 .none-992 {
+        display: none;
+    }
+
+    .aspay5 .none-2{
+        display: block;
+    }
+
+    .aspay5 .form-section{
+        padding: 30px 15px;
+    }
+}
+
+/** aspay6 start **/
+.aspay6 {
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    opacity: 1;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.aspay6 .login-inner-form {
+    color: #717171;
+    text-align: center;
+    position: relative;
+}
+
+.aspay6 .form-section{
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 40px;
+    border: 1px solid #e8e7e7;
+}
+
+.aspay6 .login-inner-form .form-group {
+    margin-bottom: 11px;
+}
+
+.aspay6 .login-inner-form .form-box {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.aspay6 .login-inner-form .input-text {
+    font-size: 14px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #717171;
+    border-radius: 50px;
+}
+
+.aspay6 .login-inner-form .form-box select {
+    float: left;
+    width: 100%;
+    padding: 11px 20px 11px 20px;
+}
+
+.aspay6 .login-inner-form .form-box input {
+    float: left;
+    width: 100%;
+    padding: 11px 20px 11px 20px;
+}
+
+.aspay6 .login-inner-form .form-box i {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 19px;
+}
+
+.aspay6 .login-inner-form label{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.aspay6 .login-inner-form .forgot{
+    margin: 0;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+}
+
+.aspay6 .login-inner-form .btn-md {
+    cursor: pointer;
+    padding: 10px 30px 9px 30px;
+    height: 45px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+}
+
+.aspay6 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-right: 3px;
+}
+
+.aspay6 .login-inner-form p{
+    margin: 0;
+    color: #717171;
+}
+
+.aspay6 .login-inner-form p a{
+    color: #717171;
+}
+
+.aspay6 .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.aspay6 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.aspay6 .login-inner-form .btn-theme {
+    background: #50a1ff;
+    border: none;
+    color: #fff;
+}
+
+.aspay6 .login-inner-form .btn-theme:hover {
+    background: #4595f1;
+}
+
+.aspay6 .logo{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.aspay6 .logo h1{
+    color: black;
+    margin-bottom: 0;
+}
+
+.aspay6 .nav-pills li{
+    display: inline-block;
+}
+
+.aspay6 .login-inner-form .form-group.mb-35{
+    margin-bottom: 35px;
+}
+
+.aspay6 .login-inner-form .form-group.mb-30{
+    margin-bottom: 30px;
+}
+
+.aspay6 .login-inner-form .social-list li {
+    display: inline-block;
+}
+
+.aspay6 .login-inner-form .social-list li a {
+    margin: 2px;
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.aspay6 .login-inner-form .social-list li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.aspay6 .login-inner-form .extra-login {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.aspay6 .login-inner-form .extra-login::before {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    height: 1px;
+    background: #d8dcdc;
+    content: "";
+}
+
+.aspay6 .login-inner-form .extra-login > span {
+    width: auto;
+    float: none;
+    display: inline-block;
+    background: #fff;
+    padding: 1px 20px;
+    z-index: 1;
+    position: relative;
+    font-family: Open Sans;
+    font-size: 13px;
+    color: #afafaf;
+    text-transform: capitalize;
+}
+
+.aspay6 .form-section p{
+    margin: 30px 0 0;
+    font-size: 14px;
+}
+
+.aspay6 .form-section p a{
+    color: #717171;
+}
+
+.aspay6 .btn-section{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aspay6 .btn-section .link-btn{
+    padding: 4px 20px;
+    font-size: 14px;
+    border: solid 1px #717171;
+    margin-right: 5px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    font-weight: 400;
+    color: #717171;
+    text-decoration: none;
+    text-decoration: blink;
+}
+
+.aspay6 .btn-section .active {
+    border: solid 1px #50a1ff;
+    background: transparent;
+    color: #50a1ff;
+}
+
+.aspay6 .login-inner-form ul{
+    margin: 0;
+    padding: 0;
+}
+
+.aspay6 .login-inner-form .terms{
+    margin-left: 3px;
+}
+
+.aspay6 .login-inner-form .checkbox {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.aspay6 .login-inner-form .form-check{
+    float: left;
+    margin-bottom: 0;
+}
+
+.aspay6 .login-inner-form .form-check a {
+    color: #717171;
+    float: right;
+}
+
+.aspay6 .login-inner-form .form-check-input {
+    position: absolute;
+    margin-left: 0;
+}
+
+.aspay6 .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -25px;
+    border: 1px solid #c5c3c3;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.aspay6 .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #717171;
+}
+
+.aspay6 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #50a1ff;
+    border-color: #50a1ff;
+}
+
+.aspay6 .login-inner-form input[type=checkbox]:checked + label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+}
+
+.aspay6 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.aspay6 .login-inner-form .checkbox a {
+    font-size: 14px;
+    color: #717171;
+    float: right;
+}
+
+.aspay6 .facebook-bg {
+    border: solid 2px #4867aa;
+    color: #4867aa;
+}
+
+.aspay6 .facebook-bg:hover{
+    background: #4867aa;
+}
+
+.aspay6 .twitter-bg {
+    border: solid 2px #33CCFF;
+    color: #33CCFF;
+}
+
+.aspay6 .twitter-bg:hover {
+    background: #33CCFF;
+}
+
+.aspay6 .google-bg {
+    border: solid 2px #db4437;
+    color: #db4437;
+}
+
+.aspay6 .google-bg:hover {
+    background: #db4437;
+}
+
+.aspay6 .linkedin-bg {
+    border: solid 2px #0177b5;
+    color: #0177b5;
+}
+
+.aspay6 .linkedin-bg:hover {
+    background: #0177b5;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .aspay6 .form-section {
+        padding: 30px;
+    }
+
+    .aspay6 {
+        padding: 30px 0;
+    }
+}
+
+/** aspayadmin start **/
+.aspayadmin{
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    min-height: 100vh;
+    z-index: 999;
+    opacity: 1;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background: #151a22;
+}
+
+.aspayadmin .login-inner-form {
+    color: #272323;
+    text-align: center;
+}
+
+.aspayadmin .col-pad-0{
+    padding: 0;
+}
+
+.aspayadmin .login-inner-form .details p{
+    color: #403838;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.aspayadmin .login-inner-form .details p a{
+    margin-left: 3px;
+    color: #403838;
+}
+
+.aspayadmin .login-inner-form .details p{
+    margin-bottom: 0;
+}
+
+.aspayadmin .login-inner-form .details {
+    padding:30px 0 30px 60px;
+}
+
+.aspayadmin .bg-img {
+    background-size: cover;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 80px 20px;
+    background: #ff574d;
+    margin: 30px 0;
+    right: -60px;
+    z-index: 999;
+}
+
+.aspayadmin-box {
+    margin: 0 200px 0 150px;
+    max-width: 700px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.04) url(../images/bg-admin.jpg) top left repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    text-align: center;
+}
+
+.aspayadmin .btn-outline {
+    border-radius: 3px;
+    padding: 6px 30px 6px 30px;
+    color: #ff574d;
+    background: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.aspayadmin .none-2{
+    display: none;
+}
+
+.aspayadmin .btn-outline:hover{
+    background: #ecebeb;
+    text-decoration: none;
+}
+
+.aspayadmin .login-inner-form h3 {
+    margin: 0 0 25px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #272323;
+}
+
+.aspayadmin .login-inner-form .form-group {
+    margin-bottom: 20px;
+}
+
+.aspayadmin .login-inner-form .input-text {
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 15px;
+    outline: 0;
+    font-weight: 500;
+    color: #717171;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+}
+
+.aspayadmin .login-inner-form .btn-md {
+    cursor: pointer;
+    padding: 10px 50px 8px 50px;
+    height: 45px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+}
+
+.aspayadmin .bg-img .social-list li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.aspayadmin .bg-img .logo{
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.aspayadmin .bg-img p{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.aspayadmin .bg-img .btn-sm{
+    padding: 6px 20px 6px 20px;
+    font-size: 13px;
+}
+
+.aspayadmin .bg-img .social-list{
+    margin-top: 35px;
+    padding: 0;
+}
+
+.aspayadmin .bg-img .social-list li a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.aspayadmin .bg-img .social-list li a:hover{
+    color: #ecebeb;
+}
+
+.aspayadmin .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-right: 3px;
+}
+
+.aspayadmin .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.aspayadmin .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.aspayadmin .login-inner-form .btn-theme {
+    background: #ff574d;
+    border: none;
+    color: #fff;
+}
+
+.aspayadmin .login-inner-form .btn-theme:hover {
+    background: #ec4a40;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.aspayadmin .login-inner-form .terms{
+    margin-left: 3px;
+}
+
+.aspayadmin .login-inner-form .checkbox {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.aspayadmin .login-inner-form .form-check{
+    float: left;
+    margin-bottom: 0;
+}
+
+.aspayadmin .login-inner-form .form-check a {
+    color: #717171;
+    float: right;
+}
+
+.aspayadmin .login-inner-form .form-check-input {
+    position: absolute;
+    margin-left: 0;
+}
+
+.aspayadmin .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -25px;
+    border: 1px solid #c5c3c3;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.aspayadmin .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #403838;
+}
+
+.aspayadmin .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #ff574d;
+    border-color: #ff574d;
+}
+
+.aspayadmin .login-inner-form input[type=checkbox]:checked+label:before{
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+}
+
+.aspayadmin .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.aspayadmin .login-inner-form .checkbox a {
+    font-size: 14px;
+    color: #403838;
+    float: right;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .aspayadmin .none-992{
+        display: none;
+    }
+
+    .aspayadmin .pad-0{
+        padding: 0;
+    }
+
+    .aspayadmin .aspayadmin-box {
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
+    .aspayadmin .login-inner-form .details {
+        padding: 30px;
+    }
+}
+
+/** MEDIA **/
+@media (max-width: 1200px) {  }
+
+@media (max-width: 992px) {  }
+
+@media (max-width: 768px) {  }
+
+@media (max-width: 580px) {  }
+
+@media (min-width: 991px) {  }
+
+@media (min-width: 991px) and (max-width: 1200px) {  }
