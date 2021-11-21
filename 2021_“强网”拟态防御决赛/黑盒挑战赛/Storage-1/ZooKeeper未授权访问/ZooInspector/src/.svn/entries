@@ -1,0 +1,77 @@
+10
+
+dir
+0
+http://svn.apache.org/repos/asf/hadoop/zookeeper/trunk/src/contrib/inspector
+http://svn.apache.org/repos/asf
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+incomplete
+13f79535-47bb-0310-9956-ffa450edef68
+
+config
+dir
+
+
+
+add
+
+licences
+dir
+
+
+
+add
+
+ivy.xml
+file
+
+
+
+add
+
+lib
+dir
+
+
+
+add
+
+src
+dir
+
+
+
+add
+
+icons
+dir
+
+
+
+add
+
+build.xml
+file
+
+
+
+add
+
